@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGApplication.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGCamera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGFigure.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGGround.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLight.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGMaterial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGModel.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGObject.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGPiece.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGScene.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGShaderProgram.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGSkybox.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGSphere.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGSlotCar.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGSlotCar_pieces.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CGPorteria.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project11c.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\SkyboxVertexShader.glsl" />
+    <None Include="shaders\SkyboxFragmentShader.glsl" />
+    <None Include="shaders\VertexShader.glsl" />
+    <None Include="shaders\FragmentShader.glsl" />
+    <None Include="shaders\ShadowmapVertexShader.glsl" />
+    <None Include="shaders\ShadowmapFragmentShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\stone.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\green.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\moon.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\posx.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\negx.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\posy.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\negy.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\posz.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="textures\negz.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGApplication.cpp" />
+    <ClCompile Include="CGCamera.cpp" />
+    <ClCompile Include="CGFigure.cpp" />
+    <ClCompile Include="CGGround.cpp" />
+    <ClCompile Include="CGLight.cpp" />
+    <ClCompile Include="CGMaterial.cpp" />
+    <ClCompile Include="CGModel.cpp" />
+    <ClCompile Include="CGObject.cpp" />
+    <ClCompile Include="CGPiece.cpp" />
+    <ClCompile Include="CGScene.cpp" />
+    <ClCompile Include="CGShaderProgram.cpp" />
+    <ClCompile Include="CGSkybox.cpp" />
+    <ClCompile Include="CGSphere.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CGSlotCar.cpp" />
+    <ClCompile Include="CGSlotCar_pieces.cpp" />
+    <ClCompile Include="CGPorteria.cpp" />
+  </ItemGroup>
+</Project>
